@@ -4,11 +4,10 @@
 
 This comprehensive guide documents the differences between Snowflake's `COMPLETE` function and the newer `AI_COMPLETE`, including all parameters, usage patterns, REST API implementations, and best practices for optional migration.
 
-**CRITICAL CLARIFICATION:** `COMPLETE` is **NOT deprecated**. Both functions are fully supported by Snowflake. Migration to `AI_COMPLETE` is **optional** and recommended only if you need the enhanced features.
 
 **Key Takeaways:**
-- `AI_COMPLETE` is the latest version replacing `COMPLETE` (which remains supported)
-- **IMPORTANT:** `COMPLETE` is NOT deprecated - you can continue using it
+- `AI_COMPLETE` is the latest version of `COMPLETE` (which remains supported)
+- `COMPLETE` is NOT deprecated - you can continue using it
 - `AI_COMPLETE` provides enhanced features: structured outputs, better error handling, newer models
 - Available via SQL and REST API with comprehensive parameter control
 
